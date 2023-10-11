@@ -1,0 +1,47 @@
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  background-color: #223238;
+  color: #fff;
+
+  &__text {
+    margin: 0 auto;
+    padding-left: 195px;
+  }
+
+  .cart {
+    display: flex;
+    padding-right: 45px;
+    cursor: pointer;
+
+    &__icon-container {
+      display: flex;
+      position: relative;
+      align-items: center;
+
+      img {
+        margin-right: 10px;
+      }
+
+      &__quantity-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+        border-radius: 25px;
+        background-color: red;
+        position: absolute;
+        top: 60%;
+        right: 67%;
+      }
+    }
+
+    &__text {
+      font-size: 15px;
+    }
+  }
+}

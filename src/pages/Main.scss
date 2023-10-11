@@ -1,0 +1,22 @@
+body {
+  background-image: url(../assets/bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .main-content {
+    text-align: center;
+
+    h1 {
+      padding-top: 20px;
+      font-size: 50px;
+      color: #21213d;
+    }
+
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 100px;
+    }
+  }
+}

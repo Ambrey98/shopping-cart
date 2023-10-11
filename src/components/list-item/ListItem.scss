@@ -1,0 +1,31 @@
+.list-item {
+  position: relative;
+  flex-direction: column;
+  flex: 1 0 21%;
+  margin: 20px;
+  background-color: #fcfcfc;
+  border-radius: 6px;
+
+  .info-icon {
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: end;
+
+    img {
+      width: 40px;
+    }
+  }
+
+  .item-img {
+    height: 260px;
+  }
+
+  &__details {
+    padding-left: 30px;
+    text-align: left;
+
+    &__price {
+      font-weight: 600;
+    }
+  }
+}
